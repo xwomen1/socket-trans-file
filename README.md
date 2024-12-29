@@ -60,5 +60,5 @@ The application follows a client-server architecture:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/file-sharing-app.git
-   cd file-sharing-app
+   git clone https://github.com/xwomen1/socket-trans-file.git
+   cd socket-trans-file
