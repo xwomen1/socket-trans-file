@@ -1,0 +1,26 @@
+2024-12-29 10:52:06,672 - INFO - Connected to server at 127.0.0.1:9999
+2024-12-29 10:53:04,573 - INFO - Starting upload for file: ofdm_mimo_detection.py with size: 899112 bytes
+2024-12-29 10:53:04,739 - INFO - File 'ofdm_mimo_detection.py' uploaded successfully. Total bytes sent: 899112
+2024-12-29 10:53:11,300 - INFO - Requesting file list from server
+2024-12-29 10:53:12,741 - INFO - Requesting file list from server
+2024-12-29 10:53:12,744 - INFO - Received file list: ['fdm_mimo_detection.py']
+2024-12-29 10:53:44,048 - INFO - select_file method called.
+2024-12-29 10:53:44,049 - INFO - File selected: fdm_mimo_detection.py
+2024-12-29 10:53:45,814 - INFO - Download button clicked.
+2024-12-29 10:53:45,815 - INFO - Requesting download for file: fdm_mimo_detection.py
+2024-12-29 10:53:45,821 - INFO - Received file list: ['ILE_NOT_FOUND']
+2024-12-29 10:53:47,925 - INFO - Requesting file list from server
+2024-12-29 10:53:47,927 - INFO - Received file list: ['dm_mimo_detection.py']
+2024-12-29 10:53:48,900 - INFO - select_file method called.
+2024-12-29 10:53:48,900 - INFO - File selected: dm_mimo_detection.py
+2024-12-29 10:53:49,913 - INFO - Download button clicked.
+2024-12-29 10:53:49,914 - INFO - Requesting download for file: dm_mimo_detection.py
+2024-12-29 10:53:49,914 - INFO - Received response: LN_
+2024-12-29 10:53:49,914 - ERROR - Unexpected response during download: LN_
+2024-12-29 10:53:52,848 - ERROR - Error receiving line: [WinError 10053] An established connection was aborted by the software in your host machine
+2024-12-29 10:53:52,848 - ERROR - Error receiving line: [WinError 10053] An established connection was aborted by the software in your host machine
+2024-12-29 10:53:52,849 - INFO - Received response: UPLOAD_SUCCESSofdm_mimo_detection.pyoFfI_TFOND for file: ofdm_mimo_detection.py
+2024-12-29 10:53:52,849 - INFO - Received response: oFEOU
+2024-12-29 10:53:52,850 - WARNING - Server response: UPLOAD_SUCCESSofdm_mimo_detection.pyoFfI_TFOND for file: ofdm_mimo_detection.py
+2024-12-29 10:53:52,851 - ERROR - Unexpected response during download: oFEOU
+2024-12-29 10:53:52,856 - INFO - Disconnected from server.
