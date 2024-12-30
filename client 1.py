@@ -19,7 +19,7 @@ class FileClientApp:
         self.master.title("File Sharing Client")
         self.master.geometry("700x600")  # Tăng kích thước để chứa Progressbar và biểu đồ
 
-        self.server_ip = "127.0.0.1"  # Server IP
+        self.server_ip = "192.168.5.98"  # Server IP
         self.server_port = 9999       # Server Port
 
         self.client_socket = None

@@ -139,8 +139,11 @@ class FileServerApp:
             try:
                 self.running = True
                 self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-                self.server_socket.bind(("0.0.0.0", 9999))
+                # self.server_socket.bind(("0.0.0.0", 9999))
+                self.server_socket.bind(("192.168.5.98", 9999))
+
                 self.server_socket.listen(5)
+                self.server_socket.settimeout(5)
                 self.status_label.config(text="Server Status: Running", fg="green")
                 self.start_button.config(state=tk.DISABLED)
                 self.stop_button.config(state=tk.NORMAL)
@@ -169,6 +172,8 @@ class FileServerApp:
         while self.running:
             try:
                 client_socket, client_address = self.server_socket.accept()
+                client_socket.settimeout(5)
+
                 threading.Thread(target=self.handle_client, args=(client_socket, client_address), daemon=True).start()
                 self.log_message(f"Client connected: {client_address}")
             except OSError:
